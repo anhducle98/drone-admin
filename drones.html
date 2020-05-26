@@ -21,7 +21,41 @@
 <body>
     <div class="dashboard-main-wrapper">
         <div data-include="topbar"></div>
-        <div data-include="navbar"></div>
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="user.html">Quản lý người dùng</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="group.html">Quản lý nhóm</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="ql-lich-su-bay.html">Quản lý lịch sử bay</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="drones.html">Quản lý drones</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
         <div class="dashboard-wrapper">
             <div data-include="main-content-drones"></div>
             <div data-include="footer"></div>
